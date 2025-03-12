@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [2.0.0]
+- Color scheme revamp
+- Added support for platform version 251.X and above
+
 ## [1.2.1]
 - Added support for platform version 232.X and above
 
