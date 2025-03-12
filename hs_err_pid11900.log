@@ -99,9 +99,9 @@ Java Threads: ( => current thread )
   0x00000201c7865000 JavaThread "Asynchronous log dispatcher for DefaultDaemonConnection: socket connection from /127.0.0.1:52324 to /127.0.0.1:52325" [_thread_blocked, id=312, stack(0x000000ccad900000,0x000000ccada00000)]
   0x00000201c79b1000 JavaThread "Stdin handler" [_thread_blocked, id=6020, stack(0x000000ccada00000,0x000000ccadb00000)]
   0x00000201c79b7000 JavaThread "Daemon client event forwarder" [_thread_blocked, id=1368, stack(0x000000ccadb00000,0x000000ccadc00000)]
-  0x00000201c7841000 JavaThread "Cache worker for journal cache (C:\Users\patrickfv\.gradle\caches\journal-1)" [_thread_blocked, id=9928, stack(0x000000ccadc00000,0x000000ccadd00000)]
+  0x00000201c7841000 JavaThread "Cache worker for journal cache (C:\Users\davidmszrs\.gradle\caches\journal-1)" [_thread_blocked, id=9928, stack(0x000000ccadc00000,0x000000ccadd00000)]
   0x00000201c7842800 JavaThread "File lock request listener" [_thread_in_native, id=1536, stack(0x000000ccadd00000,0x000000ccade00000)]
-  0x00000201c7844000 JavaThread "Cache worker for file hash cache (C:\Users\patrickfv\.gradle\caches\7.5.1\fileHashes)" [_thread_blocked, id=2252, stack(0x000000ccade00000,0x000000ccadf00000)]
+  0x00000201c7844000 JavaThread "Cache worker for file hash cache (C:\Users\davidmszrs\.gradle\caches\7.5.1\fileHashes)" [_thread_blocked, id=2252, stack(0x000000ccade00000,0x000000ccadf00000)]
   0x00000201c7840000 JavaThread "File watcher server" daemon [_thread_in_native, id=12992, stack(0x000000ccadf00000,0x000000ccae000000)]
   0x00000201c7841800 JavaThread "File watcher consumer" daemon [_thread_blocked, id=3832, stack(0x000000ccae000000,0x000000ccae100000)]
   0x00000201c7845000 JavaThread "jar transforms" [_thread_blocked, id=13060, stack(0x000000ccae100000,0x000000ccae200000)]
@@ -658,8 +658,8 @@ Dynamic libraries:
 0x00007ff90a900000 - 0x00007ff90aa0c000 	C:\Windows\SYSTEM32\WINHTTP.dll
 0x00007ff916b90000 - 0x00007ff916bfa000 	C:\Windows\system32\mswsock.dll
 0x00007ff904510000 - 0x00007ff904523000 	C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin\nio.dll
-0x00007ff8d20d0000 - 0x00007ff8d20f7000 	C:\Users\patrickfv\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64\native-platform.dll
-0x00007ff8cd5e0000 - 0x00007ff8cd724000 	C:\Users\patrickfv\.gradle\native\0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3\windows-amd64\native-platform-file-events.dll
+0x00007ff8d20d0000 - 0x00007ff8d20f7000 	C:\Users\davidmszrs\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64\native-platform.dll
+0x00007ff8cd5e0000 - 0x00007ff8cd724000 	C:\Users\davidmszrs\.gradle\native\0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3\windows-amd64\native-platform-file-events.dll
 0x00007ff906510000 - 0x00007ff906519000 	C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin\management.dll
 0x00007ff9061f0000 - 0x00007ff9061fb000 	C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin\management_ext.dll
 0x00007ff9176e0000 - 0x00007ff9176f8000 	C:\Windows\SYSTEM32\CRYPTSP.dll
@@ -674,12 +674,12 @@ Dynamic libraries:
 0x00007ff916750000 - 0x00007ff91681a000 	C:\Windows\SYSTEM32\DNSAPI.dll
 
 dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
-symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin\server;C:\Users\patrickfv\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64;C:\Users\patrickfv\.gradle\native\0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3\windows-amd64
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin\server;C:\Users\davidmszrs\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64;C:\Users\davidmszrs\.gradle\native\0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3\windows-amd64
 
 VM Arguments:
 jvm_args: --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=utf8 -Duser.country=BR -Duser.language=pt -Duser.variant 
 java_command: org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.5.1
-java_class_path (initial): C:\Users\patrickfv\.gradle\wrapper\dists\gradle-7.5.1-bin\7jzzequgds1hbszbhq3npc5ng\gradle-7.5.1\lib\gradle-launcher-7.5.1.jar
+java_class_path (initial): C:\Users\davidmszrs\.gradle\wrapper\dists\gradle-7.5.1-bin\7jzzequgds1hbszbhq3npc5ng\gradle-7.5.1\lib\gradle-launcher-7.5.1.jar
 Launcher Type: SUN_STANDARD
 
 [Global flags]
@@ -713,8 +713,8 @@ Log output configuration:
 
 Environment Variables:
 JAVA_HOME=C:\Program Files\OpenJDK\openjdk-11.0.16_8
-PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PowerShell\7\;C:\Users\patrickfv\AppData\Local\Microsoft\WindowsApps;C:\Users\patrickfv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\patrickfv\AppData\Roaming\npm;C:\tools\flutter\bin;E:\programs\IntelliJ IDEA Community Edition 2022.2.1\bin;C:\Users\patrickfv\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\patrickfv\AppData\Local\Yarn\bin;C:\Users\patrickfv\AppData\Local\Programs\Hyper\resources\bin
-USERNAME=patrickfv
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PowerShell\7\;C:\Users\davidmszrs\AppData\Local\Microsoft\WindowsApps;C:\Users\davidmszrs\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\davidmszrs\AppData\Roaming\npm;C:\tools\flutter\bin;E:\programs\IntelliJ IDEA Community Edition 2022.2.1\bin;C:\Users\davidmszrs\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\davidmszrs\AppData\Local\Yarn\bin;C:\Users\davidmszrs\AppData\Local\Programs\Hyper\resources\bin
+USERNAME=davidmszrs
 OS=Windows_NT
 PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 TMP=C:\Users\PATRIC~1\AppData\Local\Temp

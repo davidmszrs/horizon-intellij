@@ -27,7 +27,7 @@
 
 ---------------  S U M M A R Y ------------
 
-Command Line: --add-modules=ALL-SYSTEM --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\lombok\lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\Users\patrickfv\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration c:\Users\patrickfv\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win -data c:\Users\patrickfv\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java\jdt_ws
+Command Line: --add-modules=ALL-SYSTEM --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\lombok\lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\Users\davidmszrs\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration c:\Users\davidmszrs\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win -data c:\Users\davidmszrs\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java\jdt_ws
 
 Host: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz, 4 cores, 3G,  Windows 10 , 64 bit Build 19041 (10.0.19041.2251)
 Time: Sat Nov 19 22:30:21 2022 Hora oficial do Brasil elapsed time: 436.119966 seconds (0d 0h 7m 16s)
@@ -603,24 +603,24 @@ Event: 435.148 Thread 0x0000022e905d6fa0 Thread exited: 0x0000022e905d6fa0
 
 
 Dynamic libraries:
-0x00007ff75cb50000 - 0x00007ff75cb5e000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\java.exe
+0x00007ff75cb50000 - 0x00007ff75cb5e000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\java.exe
 0x00007ff91a250000 - 0x00007ff91a448000 	C:\Windows\SYSTEM32\ntdll.dll
 0x00007ff919910000 - 0x00007ff9199cf000 	C:\Windows\System32\KERNEL32.DLL
 0x00007ff917f50000 - 0x00007ff918222000 	C:\Windows\System32\KERNELBASE.dll
 0x00007ff917950000 - 0x00007ff917a50000 	C:\Windows\System32\ucrtbase.dll
-0x00007ff904880000 - 0x00007ff904898000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\jli.dll
+0x00007ff904880000 - 0x00007ff904898000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\jli.dll
 0x00007ff9196d0000 - 0x00007ff91986d000 	C:\Windows\System32\USER32.dll
 0x00007ff917be0000 - 0x00007ff917c02000 	C:\Windows\System32\win32u.dll
 0x00007ff918730000 - 0x00007ff91875b000 	C:\Windows\System32\GDI32.dll
 0x00007ff917d40000 - 0x00007ff917e4f000 	C:\Windows\System32\gdi32full.dll
 0x00007ff917c10000 - 0x00007ff917cad000 	C:\Windows\System32\msvcp_win.dll
-0x00007ff904640000 - 0x00007ff904659000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\VCRUNTIME140.dll
+0x00007ff904640000 - 0x00007ff904659000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\VCRUNTIME140.dll
 0x00007ff916d60000 - 0x00007ff916ffa000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
 0x00007ff918760000 - 0x00007ff9187fe000 	C:\Windows\System32\msvcrt.dll
 0x00007ff919a80000 - 0x00007ff919ab2000 	C:\Windows\System32\IMM32.DLL
-0x00007ff905b90000 - 0x00007ff905b9c000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\vcruntime140_1.dll
-0x00007ff8d5040000 - 0x00007ff8d50d1000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\msvcp140.dll
-0x00007ff8cfca0000 - 0x00007ff8d08e6000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\server\jvm.dll
+0x00007ff905b90000 - 0x00007ff905b9c000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\vcruntime140_1.dll
+0x00007ff8d5040000 - 0x00007ff8d50d1000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\msvcp140.dll
+0x00007ff8cfca0000 - 0x00007ff8d08e6000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\server\jvm.dll
 0x00007ff9182a0000 - 0x00007ff91834e000 	C:\Windows\System32\ADVAPI32.dll
 0x00007ff919870000 - 0x00007ff91990c000 	C:\Windows\System32\sechost.dll
 0x00007ff918600000 - 0x00007ff918725000 	C:\Windows\System32\RPCRT4.dll
@@ -630,13 +630,13 @@ Dynamic libraries:
 0x00007ff910600000 - 0x00007ff910627000 	C:\Windows\SYSTEM32\WINMM.dll
 0x00007ff9119a0000 - 0x00007ff9119aa000 	C:\Windows\SYSTEM32\VERSION.dll
 0x00007ff9151d0000 - 0x00007ff9151e2000 	C:\Windows\SYSTEM32\kernel.appcore.dll
-0x00007ff9053b0000 - 0x00007ff9053ba000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\jimage.dll
+0x00007ff9053b0000 - 0x00007ff9053ba000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\jimage.dll
 0x00007ff9171e0000 - 0x00007ff9173c4000 	C:\Windows\SYSTEM32\DBGHELP.DLL
 0x00007ff917130000 - 0x00007ff91715c000 	C:\Windows\SYSTEM32\dbgcore.DLL
 0x00007ff917cb0000 - 0x00007ff917d32000 	C:\Windows\System32\bcryptPrimitives.dll
-0x00007ff904330000 - 0x00007ff90433e000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\instrument.dll
-0x00007ff903e20000 - 0x00007ff903e45000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\java.dll
-0x00007ff904000000 - 0x00007ff904018000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\zip.dll
+0x00007ff904330000 - 0x00007ff90433e000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\instrument.dll
+0x00007ff903e20000 - 0x00007ff903e45000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\java.dll
+0x00007ff904000000 - 0x00007ff904018000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\zip.dll
 0x00007ff919ac0000 - 0x00007ff91a203000 	C:\Windows\System32\SHELL32.dll
 0x00007ff9153d0000 - 0x00007ff915b62000 	C:\Windows\SYSTEM32\windows.storage.dll
 0x00007ff918ee0000 - 0x00007ff919234000 	C:\Windows\System32\combase.dll
@@ -644,12 +644,12 @@ Dynamic libraries:
 0x00007ff918410000 - 0x00007ff9184bd000 	C:\Windows\System32\SHCORE.dll
 0x00007ff918e20000 - 0x00007ff918e75000 	C:\Windows\System32\shlwapi.dll
 0x00007ff917890000 - 0x00007ff9178af000 	C:\Windows\SYSTEM32\profapi.dll
-0x00007ff9049a0000 - 0x00007ff9049b9000 	C:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\net.dll
+0x00007ff9049a0000 - 0x00007ff9049b9000 	C:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\net.dll
 0x00007ff90a900000 - 0x00007ff90aa0c000 	C:\Windows\SYSTEM32\WINHTTP.dll
 0x00007ff916b90000 - 0x00007ff916bfa000 	C:\Windows\system32\mswsock.dll
-0x00007ff903e00000 - 0x00007ff903e15000 	C:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\nio.dll
-0x00007ff904530000 - 0x00007ff904540000 	c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\verify.dll
-0x00007ff900ad0000 - 0x00007ff900b0e000 	C:\Users\patrickfv\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win\org.eclipse.equinox.launcher\org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.600.v20220720-1916\eclipse_11700.dll
+0x00007ff903e00000 - 0x00007ff903e15000 	C:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\nio.dll
+0x00007ff904530000 - 0x00007ff904540000 	c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\verify.dll
+0x00007ff900ad0000 - 0x00007ff900b0e000 	C:\Users\davidmszrs\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win\org.eclipse.equinox.launcher\org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.600.v20220720-1916\eclipse_11700.dll
 0x00007ff9184c0000 - 0x00007ff9185ea000 	C:\Windows\System32\ole32.dll
 0x00007ff9176e0000 - 0x00007ff9176f8000 	C:\Windows\SYSTEM32\CRYPTSP.dll
 0x00007ff9163a0000 - 0x00007ff9163d4000 	C:\Windows\system32\rsaenh.dll
@@ -661,23 +661,23 @@ Dynamic libraries:
 0x00007ff9119b0000 - 0x00007ff9119c7000 	C:\Windows\SYSTEM32\dhcpcsvc6.DLL
 0x00007ff9119f0000 - 0x00007ff911a0d000 	C:\Windows\SYSTEM32\dhcpcsvc.DLL
 0x00007ff916750000 - 0x00007ff91681a000 	C:\Windows\SYSTEM32\DNSAPI.dll
-0x00007ff8d30e0000 - 0x00007ff8d3120000 	C:\Users\patrickfv\AppData\Local\Temp\jna--82566062\jna839001894296264156.dll
-0x00007ff8feab0000 - 0x00007ff8feab9000 	C:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\management.dll
-0x00007ff8fd3d0000 - 0x00007ff8fd3db000 	C:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\management_ext.dll
-0x00007ff8d20d0000 - 0x00007ff8d20f7000 	C:\Users\patrickfv\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64\native-platform.dll
-0x00007ff8fff30000 - 0x00007ff8fff3e000 	C:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\sunmscapi.dll
+0x00007ff8d30e0000 - 0x00007ff8d3120000 	C:\Users\davidmszrs\AppData\Local\Temp\jna--82566062\jna839001894296264156.dll
+0x00007ff8feab0000 - 0x00007ff8feab9000 	C:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\management.dll
+0x00007ff8fd3d0000 - 0x00007ff8fd3db000 	C:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\management_ext.dll
+0x00007ff8d20d0000 - 0x00007ff8d20f7000 	C:\Users\davidmszrs\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64\native-platform.dll
+0x00007ff8fff30000 - 0x00007ff8fff3e000 	C:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\sunmscapi.dll
 0x00007ff917a80000 - 0x00007ff917bd6000 	C:\Windows\System32\CRYPT32.dll
 0x00007ff916d30000 - 0x00007ff916d57000 	C:\Windows\SYSTEM32\ncrypt.dll
 0x00007ff916cf0000 - 0x00007ff916d2b000 	C:\Windows\SYSTEM32\NTASN1.dll
 0x00007ff90a790000 - 0x00007ff90a797000 	C:\Windows\system32\wshunix.dll
 
 dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
-symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\server;C:\Users\patrickfv\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win\org.eclipse.equinox.launcher\org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.600.v20220720-1916;C:\Users\patrickfv\AppData\Local\Temp\jna--82566062;C:\Users\patrickfv\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\jre\17.0.4.1-win32-x86_64\bin\server;C:\Users\davidmszrs\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win\org.eclipse.equinox.launcher\org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.600.v20220720-1916;C:\Users\davidmszrs\AppData\Local\Temp\jna--82566062;C:\Users\davidmszrs\.gradle\native\e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5\windows-amd64
 
 VM Arguments:
-jvm_args: --add-modules=ALL-SYSTEM --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\lombok\lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\Users\patrickfv\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java 
-java_command: c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration c:\Users\patrickfv\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win -data c:\Users\patrickfv\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java\jdt_ws
-java_class_path (initial): c:\Users\patrickfv\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+jvm_args: --add-modules=ALL-SYSTEM --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\lombok\lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=c:\Users\davidmszrs\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java
+java_command: c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration c:\Users\davidmszrs\AppData\Roaming\Code\User\globalStorage\redhat.java\1.12.0\config_win -data c:\Users\davidmszrs\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java\jdt_ws
+java_class_path (initial): c:\Users\davidmszrs\.vscode\extensions\redhat.java-1.12.0-win32-x64\server\plugins\org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
 Launcher Type: SUN_STANDARD
 
 [Global flags]
@@ -685,7 +685,7 @@ Launcher Type: SUN_STANDARD
      intx CICompilerCount                          = 3                                         {product} {ergonomic}
     uintx GCTimeRatio                              = 4                                         {product} {command line}
      bool HeapDumpOnOutOfMemoryError               = true                                   {manageable} {command line}
-    ccstr HeapDumpPath                             = c:\Users\patrickfv\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java         {manageable} {command line}
+    ccstr HeapDumpPath                             = c:\Users\davidmszrs\AppData\Roaming\Code\User\workspaceStorage\3d82ccf4a7eaa9aa4db9795409987dad\redhat.java         {manageable} {command line}
    size_t InitialHeapSize                          = 104857600                                 {product} {command line}
    size_t MaxHeapSize                              = 1073741824                                {product} {command line}
    size_t MaxNewSize                               = 357564416                                 {product} {ergonomic}
@@ -711,8 +711,8 @@ Log output configuration:
 
 Environment Variables:
 JAVA_HOME=C:\Program Files\OpenJDK\openjdk-11.0.16_8
-PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PowerShell\7\;C:\Users\patrickfv\AppData\Local\Microsoft\WindowsApps;C:\Users\patrickfv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\patrickfv\AppData\Roaming\npm;C:\tools\flutter\bin;E:\programs\IntelliJ IDEA Community Edition 2022.2.1\bin;C:\Users\patrickfv\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\patrickfv\AppData\Local\Yarn\bin;C:\Users\patrickfv\AppData\Local\Programs\Hyper\resources\bin
-USERNAME=patrickfv
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PowerShell\7\;C:\Users\davidmszrs\AppData\Local\Microsoft\WindowsApps;C:\Users\davidmszrs\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\davidmszrs\AppData\Roaming\npm;C:\tools\flutter\bin;E:\programs\IntelliJ IDEA Community Edition 2022.2.1\bin;C:\Users\davidmszrs\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\davidmszrs\AppData\Local\Yarn\bin;C:\Users\davidmszrs\AppData\Local\Programs\Hyper\resources\bin
+USERNAME=davidmszrs
 OS=Windows_NT
 PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 TMP=C:\Users\PATRIC~1\AppData\Local\Temp
