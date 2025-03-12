@@ -41,16 +41,16 @@
       "selectionInactiveBackground": "hl1",
       "disabledText": "gray",
       "disabledBackground": "hl1",
-      "inactiveBackground": "hl0",
+      "inactiveBackground": "bg",
       "acceleratorForeground": "gray",
       "acceleratorSelectionForeground": "fg",
       "errorForeground": "dark_red",
-      "Borders.ContrastBorderColor": "hl2",
-      "borderColor": "hl0",
-      "disabledBorderColor": "hl1",
+      "Borders.ContrastBorderColor": "bg",
+      "borderColor": "bg",
+      "disabledBorderColor": "bg",
       "focusColor": "pink",
       "focusedBorderColor": "pink",
-      "separatorColor": "hl2"
+      "separatorColor": "bg"
     },
     "ActionButton": {
       "hoverBackground": "hl4",
@@ -59,7 +59,7 @@
       "pressedBorderColor": "hl2"
     },
     "Borders": {
-      "color": "hl2",
+      "color": "hl0",
       "ContrastBorderColor": "hl2"
     },
     "Button": {
@@ -92,7 +92,7 @@
     "CompletionPopup": {
       "selectionInactiveBackground": "hl2",
       "selectionBackground": "hl3",
-      "matchForeground": "blue"
+      "matchForeground": "red"
     },
     "ComplexPopup": {
       "Header": {
@@ -127,7 +127,7 @@
       "shortcutForeground": "blue"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "hl1"
+      "underlinedTabBackground": "bg"
     },
     "FileColor": {
       "Yellow": "#3d3026",
@@ -263,7 +263,7 @@
       "foreground": "fg_light",
       "separatorColor": "fg_light",
       "background": "pink",
-      "runningBackground": "dark_green"
+      "runningBackground": "green"
     },
     "SearchEverywhere": {
       "Advertiser.foreground": "gray",
@@ -273,8 +273,8 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "yellow",
-      "endBackground": "yellow"
+      "startBackground": "red",
+      "endBackground": "red"
     },
     "SegmentedButton": {
       "selectedButtonColor": "pink",
@@ -342,13 +342,13 @@
         "selectedForeground": "fg"
       },
       "HeaderTab": {
-        "hoverBackground": "hl2"
+        "hoverBackground": "bg"
       }
     },
     "Tree": {
       "selectionBackground": "hl3",
       "modifiedItemForeground": "yellow",
-      "hoverBackground": "hl2",
+      "hoverBackground": "hl3",
       "hoverInactiveBackground": "hl2"
     },
     "VersionControl": {
@@ -364,8 +364,8 @@
       }
     },
     "WelcomeScreen": {
-      "separatorColor": "hl4",
-      "SidePanel.background": "hl0"
+      "separatorColor": "bg",
+      "SidePanel.background": "bg"
     }
   },
   "icons": {
