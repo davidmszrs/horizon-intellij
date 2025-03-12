@@ -163,7 +163,7 @@
       "visitedForeground": "red"
     },
     "List": {
-      "selectionBackground": "gray",
+      "selectionBackground": "hl3",
       "selectionForeground": "fg"
     },
     "MainToolbar": {
@@ -182,11 +182,11 @@
       "usedBackground": "light_gray"
     },
     "Menu": {
-      "selectionBackground": "gray",
+      "selectionBackground": "hl4",
       "selectionForeground": "fg_light"
     },
     "MenuItem": {
-      "selectionBackground": "gray",
+      "selectionBackground": "hl4",
       "selectionForeground": "fg_light",
       "acceleratorForeground": "light_gray"
     },
@@ -197,7 +197,7 @@
         "foreground": "light_gray"
       },
       "ToolWindow": {
-        "informativeForeground": "fg",
+        "informativeForeground": "#9D9D9C",
         "informativeBackground": "hl2",
         "informativeBorderColor": "light_gray"
       }
@@ -208,7 +208,7 @@
     "ParameterInfo": {
       "background": "hl3",
       "foreground": "fg",
-      "infoForeground": "gray",
+      "infoForeground": "hl4",
       "currentParameterForeground": "fg_light"
     },
     "Plugins": {
@@ -246,13 +246,13 @@
       }
     },
     "PopupMenu": {
-      "selectionBackground": "gray",
+      "selectionBackground": "hl4",
       "selectionForeground": "fg_light"
     },
     "ProgressBar": {
       "trackColor": "hl1",
       "progressColor": "pink",
-      "indeterminateStartColor": "light_gray",
+      "indeterminateStartColor": "bg",
       "indeterminateEndColor": "pink",
       "failedColor": "dark_red",
       "failedEndColor": "red",
@@ -261,12 +261,12 @@
     },
     "RunWidget": {
       "foreground": "fg_light",
-      "separatorColor": "fg_light",
-      "background": "pink",
-      "runningBackground": "green"
+      "stopBackground": "light_red",
+      "runIconColor": "green",
+      "runningBackground": "blue"
     },
     "SearchEverywhere": {
-      "Advertiser.foreground": "gray",
+      "Advertiser.foreground": "hl4",
       "Tab": {
         "selectedForeground": "fg",
         "selectedBackground": "hl2"
@@ -327,7 +327,7 @@
     "ToggleButton": {
       "onForeground": "fg",
       "onBackground": "dark_green",
-      "offForeground": "gray",
+      "offForeground": "hl4",
       "offBackground": "hl0",
       "borderColor": "hl0",
       "buttonColor": "hl4"
@@ -355,7 +355,7 @@
       "Log.Commit": {
         "currentBranchBackground": "hl0",
         "hoveredBackground": "hl2",
-        "unmatchedForeground": "gray"
+        "unmatchedForeground": "hl4"
       },
       "RefLabel": {
         "backgroundBrightness": 0.3,
@@ -372,13 +372,14 @@
     "ColorPalette": {
       "Checkbox.Background.Default.Dark": "#232530",
       "Checkbox.Border.Default.Dark": "#6C6F93",
-      "Checkbox.Foreground.Selected.Dark": "#FAB28E",
+      "Checkbox.Foreground.Selected.Dark": "#E5E9F0",
       "Checkbox.Focus.Wide.Dark": "#E9436F",
       "Checkbox.Focus.Thin.Default.Dark": "#E9436F",
       "Checkbox.Focus.Thin.Selected.Dark": "#E9436F",
       "Checkbox.Background.Disabled.Dark": "#1C1E26",
       "Checkbox.Border.Disabled.Dark": "#2E303E",
-      "Checkbox.Foreground.Disabled.Dark": "#6C6F93"
+      "Checkbox.Foreground.Disabled.Dark": "#6C6F93",
+      "Gray.Stroke": "#9D9D9C"
     }
   }
 }
