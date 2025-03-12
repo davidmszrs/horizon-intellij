@@ -887,7 +887,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="25B2BC"/>
+                <option name="FOREGROUND" value="E95678"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -970,12 +970,12 @@
                 <option name="FOREGROUND" value="E95678"/>
             </value>
         </option>
-        <option name="CS_XML_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="4C4D52"/>
-                <option name="FONT_TYPE" value="2"/>
-            </value>
-        </option>
+<!--        <option name="CS_XML_COMMENT">-->
+<!--            <value>-->
+<!--                <option name="FOREGROUND" value="4C4D52"/>-->
+<!--                <option name="FONT_TYPE" value="2"/>-->
+<!--            </value>-->
+<!--        </option>-->
         <option name="CS_XML_TAG">
             <value>
                 <option name="FOREGROUND" value="E95678"/>
