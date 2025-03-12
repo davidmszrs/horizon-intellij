@@ -29,7 +29,7 @@
     "hl1": "#2E303E",
     "hl2": "#2E303E",
     "hl3": "#2E303E",
-    "hl4": "#6C6F93"
+    "hl4": "#4C4D52"
   },
   "ui": {
     "*": {
@@ -346,7 +346,7 @@
       }
     },
     "Tree": {
-      "selectionBackground": "gray",
+      "selectionBackground": "hl3",
       "modifiedItemForeground": "yellow",
       "hoverBackground": "hl2",
       "hoverInactiveBackground": "hl2"
