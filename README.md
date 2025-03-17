@@ -4,7 +4,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
 <!-- Plugin description -->
-A beautifully warm dual theme for intellij, based on [horizon theme](https://horizontheme.netlify.app/).
+A beautifully warm dual theme for intellij, based on [horizon theme](https://github.com/jolaleye/horizon-theme-vscode?tab=MIT-1-ov-file).
 <!-- Plugin description end -->
 
 ## Installation
