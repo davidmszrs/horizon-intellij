@@ -1,6 +1,13 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# horizon-jetbrains-ide Changelog
+# horizon-jetbrains Changelog
+
+## [2.1.0]
+- Fixed Main Window tab background color
+- Update all dependencies to their latest versions
+- Modernize build scripts
+- Update to Java 17
+- Bump minimum IDE version to 2024.1.7 (JetBrains Platform version 241.0)
 
 ## [2.0.1]
 - Fixed Main Window tab colors to match the rest of the color theme

@@ -173,21 +173,14 @@
       "borderColor": "hl3",
       "hoverBackground": "hl0",
       "hoverForeground": "fg",
-      "selectedBackground": "hl3",
+      "selectedBackground": "hl0",
       "selectedForeground": "fg",
-      "selectedInactiveBackground": "hl3",
+      "selectedInactiveBackground": "hl0",
       "separatorColor": "hl3"
     },
     "MainToolbar": {
-      "inactiveBackground": "bg",
-      "Dropdown": {
-        "hoverBackground": "hl4",
-        "pressedBackground": "hl2"
-      },
-      "Icon": {
-        "hoverBackground": "hl4",
-        "pressedBackground": "hl2"
-      }
+      "Dropdown": {},
+      "Icon": {}
     },
     "MemoryIndicator": {
       "allocatedBackground": "hl4",
@@ -391,7 +384,7 @@
       "Checkbox.Background.Disabled.Dark": "#1C1E26",
       "Checkbox.Border.Disabled.Dark": "#2E303E",
       "Checkbox.Foreground.Disabled.Dark": "#6C6F93",
-      "Gray.Stroke": "fg_dark"
+      "Gray.Stroke": "#9D9D9C"
     }
   }
 }
