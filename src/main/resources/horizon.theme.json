@@ -5,6 +5,7 @@
   "editorScheme": "/horizon.xml",
   "colors": {
     "fg": "#E5E9F0",
+    "fg_dark": "#9D9D9C",
     "fg_light": "#FFFFFF",
     "bg": "#1C1E26",
     "gray": "#6C6F93",
@@ -166,6 +167,17 @@
       "selectionBackground": "hl3",
       "selectionForeground": "fg"
     },
+    "MainWindow.Tab": {
+      "foreground": "fg_dark",
+      "background": "bg",
+      "borderColor": "hl3",
+      "hoverBackground": "hl0",
+      "hoverForeground": "fg",
+      "selectedBackground": "hl3",
+      "selectedForeground": "fg",
+      "selectedInactiveBackground": "hl3",
+      "separatorColor": "hl3"
+    },
     "MainToolbar": {
       "inactiveBackground": "bg",
       "Dropdown": {
@@ -197,7 +209,7 @@
         "foreground": "light_gray"
       },
       "ToolWindow": {
-        "informativeForeground": "#9D9D9C",
+        "informativeForeground": "fg_dark",
         "informativeBackground": "hl2",
         "informativeBorderColor": "light_gray"
       }
@@ -379,7 +391,7 @@
       "Checkbox.Background.Disabled.Dark": "#1C1E26",
       "Checkbox.Border.Disabled.Dark": "#2E303E",
       "Checkbox.Foreground.Disabled.Dark": "#6C6F93",
-      "Gray.Stroke": "#9D9D9C"
+      "Gray.Stroke": "fg_dark"
     }
   }
 }

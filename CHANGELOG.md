@@ -2,7 +2,10 @@
 
 # horizon-jetbrains-ide Changelog
 
-## [Unreleased]
+## [2.0.1]
+- Fixed Main Window tab colors to match the rest of the color theme
+- Renamed plugin project to "horizonjetbrains"
+- Added support for platform version 252.X and above
 
 ## [2.0.0]
 - Color scheme revamp
