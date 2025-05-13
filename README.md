@@ -1,4 +1,4 @@
-# horizon-jetbrains-ide
+# horizon-jetbrains
 
 [![Version](https://img.shields.io/jetbrains/plugin/v/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/com.davidmszrs.horizonjetbrains)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/com.davidmszrs.horizonjetbrains)

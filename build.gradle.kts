@@ -1,3 +1,4 @@
+import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
 
 fun properties(key: String) = project.findProperty(key).toString()
@@ -56,7 +57,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild = properties("pluginSinceBuild")
-//            untilBuild = properties("pluginUntilBuild")
+            untilBuild = properties("pluginUntilBuild")
         }
 
         // Extract the <!-- Plugin description --> section from README.md
@@ -79,7 +80,8 @@ intellijPlatform {
         changeNotes = providers.provider {
             with(changelog) {
                 renderItem(
-                    getOrNull(properties("pluginVersion")) ?: getUnreleased()
+                    getOrNull(properties("pluginVersion")) ?: getUnreleased(),
+                    outputType = Changelog.OutputType.MARKDOWN
                 )
             }
         }
