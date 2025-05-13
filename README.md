@@ -1,7 +1,7 @@
 # horizon-jetbrains
 
-[![Version](https://img.shields.io/jetbrains/plugin/v/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/com.davidmszrs.horizonjetbrains)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/com.davidmszrs.horizonjetbrains)
+[![Version](https://img.shields.io/jetbrains/plugin/v/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/26847-horizon-jetbrains)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.davidmszrs.horizonjetbrains.svg)](https://plugins.jetbrains.com/plugin/26847-horizon-jetbrains)
 
 <!-- Plugin description -->
 A beautifully warm dual theme for intellij, based on [horizon theme](https://github.com/jolaleye/horizon-theme-vscode?tab=MIT-1-ov-file).
