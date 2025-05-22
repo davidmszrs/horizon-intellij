@@ -2,6 +2,10 @@
 
 # horizon-jetbrains Changelog
 
+## [2.1.2]
+- Fixed various inconsistencies
+- Added padding in non-compact mode
+
 ## [2.1.1]
 - Editor color improvements
 - ScrollBars are now properly colored

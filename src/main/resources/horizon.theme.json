@@ -72,7 +72,7 @@
       "focusedBorderColor": "fg",
       "disabledBorderColor": "hl4",
       "default": {
-        "foreground": "fg",
+        "foreground": "fg_light",
         "startBackground": "pink",
         "endBackground": "pink",
         "startBorderColor": "pink",
@@ -128,7 +128,8 @@
       "shortcutForeground": "blue"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "bg"
+      "underlinedTabBackground": "bg",
+      "tabInsets": "-8,10,-8,10"
     },
     "ScrollBar": {
       "thumb": "hl3",
@@ -207,7 +208,8 @@
       "selectionForeground": "fg",
       "Button": {
         "hoverBackground": "hl0"
-      }
+      },
+      "rowHeight": 27
     },
     "MainWindow.Tab": {
       "foreground": "fg",
@@ -284,7 +286,7 @@
     },
     "Popup": {
       "borderColor": "hl0",
-      "Header.activeBackground": "hl1",
+      "Header.activeBackground": "bg",
       "Header.inactiveBackground": "bg",
       "separatorColor": "hl1",
       "separatorForeground": "fg",
@@ -363,6 +365,7 @@
       "lightSelectionInactiveBackground": "hl1",
       "hoverBackground": "hl2"
     },
+    "TableHeader.cellBorder": "10,0,10,0",
     "Tag.background": "hl3",
     "TextArea": {
       "background": "hl1",
@@ -402,6 +405,7 @@
       "background": "bg"
     },
     "Tree": {
+      "rowHeight": 27,
       "selectionBackground": "hl1",
       "modifiedItemForeground": "yellow",
       "hoverBackground": "hl1",
