@@ -2,6 +2,10 @@
 
 # horizon-jetbrains Changelog
 
+## [2.1.1]
+- Editor color improvements
+- ScrollBars are now properly colored
+
 ## [2.1.0]
 - Fixed Main Window tab background color
 - Update all dependencies to their latest versions

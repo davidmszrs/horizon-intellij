@@ -4,12 +4,12 @@
   "author": "David Meszaroș",
   "editorScheme": "/horizon.xml",
   "colors": {
-    "fg": "#E5E9F0",
-    "fg_dark": "#9D9D9C",
+    "fg": "#A9A9A9",
+    "fg_dark": "#6b708d",
     "fg_light": "#FFFFFF",
     "bg": "#1C1E26",
-    "gray": "#6C6F93",
-    "light_gray": "#6C6F93",
+    "gray": "#424557",
+    "light_gray": "#424557",
     "cyan": "#25B2BC",
     "blue": "#25B2BC",
     "dark_blue": "#21BFC2",
@@ -17,9 +17,9 @@
     "green": "#27D796",
     "dark_green": "#09F7A0",
     "light_green": "#21BFC2",
-    "dark_red": "#E95379",
-    "red": "#E95678",
-    "light_red": "#F43E5C",
+    "dark_red": "#F43E5C",
+    "red": "#E9436F",
+    "light_red": "#E95379",
     "pink": "#E9436F",
     "dark_pink": "#E9436F",
     "orange": "#F09383",
@@ -30,13 +30,13 @@
     "hl1": "#2E303E",
     "hl2": "#2E303E",
     "hl3": "#2E303E",
-    "hl4": "#4C4D52"
+    "hl4": "#424557"
   },
   "ui": {
     "*": {
       "background": "bg",
       "foreground": "fg",
-      "infoForeground": "gray",
+      "infoForeground": "fg_dark",
       "selectionBackground": "hl3",
       "selectionForeground": "fg",
       "selectionInactiveBackground": "hl1",
@@ -46,7 +46,7 @@
       "acceleratorForeground": "gray",
       "acceleratorSelectionForeground": "fg",
       "errorForeground": "dark_red",
-      "Borders.ContrastBorderColor": "bg",
+      "Borders.ContrastBorderColor": "fg",
       "borderColor": "bg",
       "disabledBorderColor": "bg",
       "focusColor": "pink",
@@ -66,13 +66,13 @@
     "Button": {
       "startBackground": "hl3",
       "endBackground": "hl3",
-      "startBorderColor": "gray",
-      "endBorderColor": "gray",
+      "startBorderColor": "hl4",
+      "endBorderColor": "hl4",
       "shadowColor": "bg",
-      "focusedBorderColor": "light_gray",
+      "focusedBorderColor": "fg",
       "disabledBorderColor": "hl4",
       "default": {
-        "foreground": "fg_light",
+        "foreground": "fg",
         "startBackground": "pink",
         "endBackground": "pink",
         "startBorderColor": "pink",
@@ -91,8 +91,8 @@
     },
     "ComboPopup.border": "1,1,1,1,6C6F93",
     "CompletionPopup": {
-      "selectionInactiveBackground": "hl2",
-      "selectionBackground": "hl3",
+      "selectionInactiveBackground": "bg",
+      "selectionBackground": "hl1",
       "matchForeground": "red"
     },
     "ComplexPopup": {
@@ -107,7 +107,7 @@
       "inactiveWarningFocusColor": "orange"
     },
     "Counter": {
-      "background": "light_gray",
+      "background": "fg",
       "foreground": "fg"
     },
     "DefaultTabs": {
@@ -130,6 +130,45 @@
     "EditorTabs": {
       "underlinedTabBackground": "bg"
     },
+    "ScrollBar": {
+      "thumb": "hl3",
+      "thumbColor": "hl3",
+      "thumbBorderColor": "hl3",
+      "thumbShadow": "bg",
+      "thumbDarkShadow": "bg",
+      "thumbHighlight": "hl3",
+      "hoverThumbColor": "red",
+      "hoverThumbBorderColor": "red",
+      "track": "bg",
+      "trackColor": "bg",
+      "trackHighlight": "hl3",
+      "hoverTrackColor": "bg",
+      "background": "bg",
+      "Mac": {
+        "Transparent": {
+          "thumbColor": "hl3",
+          "thumbBorderColor": "hl3",
+          "hoverThumbColor": "red",
+          "hoverThumbBorderColor": "red",
+          "trackColor": "bg",
+          "hoverTrackColor": "bg"
+        },
+        "thumbColor": "hl3",
+        "thumbBorderColor": "hl3",
+        "hoverThumbColor": "red",
+        "hoverThumbBorderColor": "red",
+        "trackColor": "bg",
+        "hoverTrackColor": "bg"
+      },
+      "Transparent": {
+        "thumbColor": "hl3",
+        "thumbBorderColor": "hl3",
+        "hoverThumbColor": "red",
+        "hoverThumbBorderColor": "red",
+        "trackColor": "bg",
+        "hoverTrackColor": "bg"
+      }
+    },
     "FileColor": {
       "Yellow": "#3d3026",
       "Green": "#293a24",
@@ -141,12 +180,12 @@
     "GotItTooltip": {
       "foreground": "fg",
       "background": "hl2",
-      "borderColor": "light_gray",
+      "borderColor": "fg",
       "linkForeground": "blue",
       "shortcutForeground": "gray"
     },
     "Label": {
-      "infoForeground": "gray",
+      "infoForeground": "fg_dark",
       "successForeground": "green"
     },
     "Lesson": {
@@ -164,11 +203,14 @@
       "visitedForeground": "red"
     },
     "List": {
-      "selectionBackground": "hl3",
-      "selectionForeground": "fg"
+      "selectionBackground": "hl1",
+      "selectionForeground": "fg",
+      "Button": {
+        "hoverBackground": "hl0"
+      }
     },
     "MainWindow.Tab": {
-      "foreground": "fg_dark",
+      "foreground": "fg",
       "background": "bg",
       "borderColor": "hl3",
       "hoverBackground": "hl0",
@@ -181,43 +223,44 @@
     "MainToolbar": {
       "Dropdown": {},
       "Icon": {}
+
     },
     "MemoryIndicator": {
       "allocatedBackground": "hl4",
-      "usedBackground": "light_gray"
+      "usedBackground": "fg"
     },
     "Menu": {
-      "selectionBackground": "hl4",
-      "selectionForeground": "fg_light"
+      "selectionBackground": "hl0",
+      "selectionForeground": "fg"
     },
     "MenuItem": {
-      "selectionBackground": "hl4",
-      "selectionForeground": "fg_light",
-      "acceleratorForeground": "light_gray"
+      "selectionBackground": "hl0",
+      "selectionForeground": "fg",
+      "acceleratorForeground": "fg"
     },
     "Notification": {
       "background": "hl0",
       "borderColor": "hl4",
       "MoreButton": {
-        "foreground": "light_gray"
+        "foreground": "fg"
       },
       "ToolWindow": {
-        "informativeForeground": "fg_dark",
+        "informativeForeground": "fg",
         "informativeBackground": "hl2",
-        "informativeBorderColor": "light_gray"
+        "informativeBorderColor": "hl3"
       }
     },
     "NotificationsToolwindow.Notification.hoverBackground": "hl2",
     "NotificationsToolwindow.newNotification.background": "hl2",
     "NotificationsToolwindow.newNotification.hoverBackground": "hl2",
     "ParameterInfo": {
-      "background": "hl3",
+      "background": "hl0",
       "foreground": "fg",
-      "infoForeground": "hl4",
-      "currentParameterForeground": "fg_light"
+      "infoForeground": "fg",
+      "currentParameterForeground": "fg"
     },
     "Plugins": {
-      "disabledForeground": "light_gray",
+      "disabledForeground": "hl4",
       "hoverBackground": "hl2",
       "lightSelectionBackground": "hl2",
       "tagBackground": "hl3",
@@ -225,8 +268,8 @@
       "Button": {
         "installForeground": "green",
         "installBorderColor": "green",
-        "installFillForeground": "bg",
-        "installFillBackground": "green",
+        "installFillForeground": "green",
+        "installFillBackground": "bg",
         "updateForeground": "fg",
         "updateBackground": "pink",
         "updateBorderColor": "pink"
@@ -235,24 +278,24 @@
       "SectionHeader.background": "hl1",
       "Tab": {
         "selectedForeground": "fg",
-        "selectedBackground": "bg",
+        "selectedBackground": "hl1",
         "hoverBackground": "hl2"
       }
     },
     "Popup": {
-      "borderColor": "hl2",
+      "borderColor": "hl0",
       "Header.activeBackground": "hl1",
       "Header.inactiveBackground": "bg",
       "separatorColor": "hl1",
-      "separatorForeground": "light_gray",
+      "separatorForeground": "fg",
       "Advertiser": {
-        "foreground": "light_gray",
-        "borderColor": "hl4"
+        "foreground": "fg",
+        "borderColor": "hl3"
       }
     },
     "PopupMenu": {
-      "selectionBackground": "hl4",
-      "selectionForeground": "fg_light"
+      "selectionBackground": "hl3",
+      "selectionForeground": "fg"
     },
     "ProgressBar": {
       "trackColor": "hl1",
@@ -265,13 +308,13 @@
       "passedEndColor": "dark_green"
     },
     "RunWidget": {
-      "foreground": "fg_light",
+      "foreground": "fg",
       "stopBackground": "light_red",
       "runIconColor": "green",
       "runningBackground": "blue"
     },
     "SearchEverywhere": {
-      "Advertiser.foreground": "hl4",
+      "Advertiser.foreground": "fg",
       "Tab": {
         "selectedForeground": "fg",
         "selectedBackground": "hl2"
@@ -288,7 +331,7 @@
     },
     "Settings.Spotlight.borderColor": "pink",
     "Slider": {
-      "buttonColor": "light_gray",
+      "buttonColor": "fg",
       "tickColor": "hl4",
       "buttonBorderColor": "hl1",
       "trackColor": "hl4"
@@ -301,76 +344,80 @@
     },
     "TabbedPane": {
       "underlineColor": "pink",
-      "hoverColor": "hl2",
-      "focusColor": "bg"
+      "hoverColor": "hl1",
+      "focusColor": "hl2"
     },
     "Table": {
       "background": "hl0",
       "stripeColor": "hl1",
-      "selectionForeground": "fg_light",
+      "selectionForeground": "fg",
       "foreground": "fg",
       "dropLineColor": "fg",
       "focusCellForeground": "fg",
       "gridColor": "hl4",
       "lightSelectionInactiveForeground": "fg",
       "lightSelectionForeground": "fg",
-      "selectionBackground": "hl3",
+      "selectionBackground": "hl0",
       "selectionInactiveForeground": "blue",
-      "lightSelectionBackground": "hl3",
-      "lightSelectionInactiveBackground": "#232530",
+      "lightSelectionBackground": "hl0",
+      "lightSelectionInactiveBackground": "hl1",
       "hoverBackground": "hl2"
     },
     "Tag.background": "hl3",
     "TextArea": {
       "background": "hl1",
-      "selectionBackground": "light_gray"
+      "selectionBackground": "fg"
     },
     "TextField": {
       "background": "hl1",
-      "selectionBackground": "light_gray"
+      "selectionBackground": "fg"
     },
     "ToggleButton": {
       "onForeground": "fg",
-      "onBackground": "dark_green",
-      "offForeground": "hl4",
-      "offBackground": "hl0",
+      "onBackground": "hl0",
+      "offForeground": "fg",
+      "offBackground": "bg",
       "borderColor": "hl0",
-      "buttonColor": "hl4"
+      "buttonColor": "hl0"
     },
     "ToolTip": {
       "background": "hl1"
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "hl2",
-        "selectedBackground": "hl2",
+        "hoverBackground": "hl0",
+        "selectedBackground": "hl1",
         "selectedForeground": "fg"
       },
       "HeaderTab": {
-        "hoverBackground": "bg"
-      }
+        "hoverBackground": "hl2",
+        "selectedInactiveBackground": "hl0",
+        "hoverInactiveBackground": "hl1"
+      },
+      "Header": {
+        "background": "hl1",
+        "borderColor": "hl1",
+        "inactiveBackground": "bg"
+      },
+      "background": "bg"
     },
     "Tree": {
-      "selectionBackground": "hl3",
+      "selectionBackground": "hl1",
       "modifiedItemForeground": "yellow",
-      "hoverBackground": "hl3",
+      "hoverBackground": "hl1",
       "hoverInactiveBackground": "hl2"
     },
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "hl0",
         "hoveredBackground": "hl2",
-        "unmatchedForeground": "hl4"
+        "unmatchedForeground": "fg"
       },
       "RefLabel": {
         "backgroundBrightness": 0.3,
         "backgroundBase": "pink",
         "foreground": "purple"
       }
-    },
-    "WelcomeScreen": {
-      "separatorColor": "bg",
-      "SidePanel.background": "bg"
     }
   },
   "icons": {
@@ -381,7 +428,7 @@
       "Checkbox.Focus.Wide.Dark": "#E9436F",
       "Checkbox.Focus.Thin.Default.Dark": "#E9436F",
       "Checkbox.Focus.Thin.Selected.Dark": "#E9436F",
-      "Checkbox.Background.Disabled.Dark": "#1C1E26",
+      "Checkbox.Background.Disabled.Dark": "#16161C",
       "Checkbox.Border.Disabled.Dark": "#2E303E",
       "Checkbox.Foreground.Disabled.Dark": "#6C6F93",
       "Gray.Stroke": "#9D9D9C"
