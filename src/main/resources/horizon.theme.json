@@ -434,14 +434,14 @@
     "ColorPalette": {
       "Checkbox.Background.Default": "#232530",
       "Checkbox.Border.Default": "#E9436F",
-      "Checkbox.Foreground.Selected": "#232530",
+      "Checkbox.Foreground.Selected": "#E9436F",
       "Checkbox.Focus.Wide": "#232530",
       "Checkbox.Focus.Thin.Default": "#E9436F",
       "Checkbox.Focus.Thin.Selected": "#E9436F",
       "Checkbox.Background.Disabled": "#232530",
       "Checkbox.Border.Disabled": "#A9A9A9",
       "Checkbox.Foreground.Disabled": "#A9A9A9",
-      "Checkbox.Background.Selected": "#E9436F",
+      "Checkbox.Background.Selected": "#232530",
       "Checkbox.Border.Selected": "#E9436F",
 
       "Gray.Fill": "#232530",
