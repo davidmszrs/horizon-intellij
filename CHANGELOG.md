@@ -2,6 +2,11 @@
 
 # horizon-jetbrains Changelog
 
+## [3.0.0]
+- Added support for **Horizon Bright**
+- Refactored all system colors to match the Horizon color scheme
+- Fixed most inconsistencies
+
 ## [2.1.2]
 - Fixed various inconsistencies
 - Added padding in non-compact mode

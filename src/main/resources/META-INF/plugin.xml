@@ -7,7 +7,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.davidmszrs.horizonjetbrains.dark" path="/horizon.theme.json"/>
-<!--        <themeProvider id="com.davidmszrs.horizonjetbrains.bright" path="/horizon_bright.theme.json"/>-->
+        <themeProvider id="com.davidmszrs.horizonjetbrains.bright" path="/horizon_bright.theme.json"/>
 <!--        <iconProvider implementation="com.davidmszrs.HorizonIconProvider"/>-->
     </extensions>
 

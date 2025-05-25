@@ -1,26 +1,14 @@
-<scheme name="Horizon copy" version="142" parent_scheme="Darcula">
+<scheme name="Horizon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
+    <metaInfo>
+        <property name="ide">Idea</property>
+        <property name="ideVersion">2024.1.7.0.0</property>
+    </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="14" />
     <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
     <option name="EDITOR_LIGATURES" value="true" />
     <colors>
-        <option name="FILESTATUS_ADDED" value="21BFC2" />
-        <option name="FILESTATUS_COPIED" value="21BFC2" />
-        <option name="FILESTATUS_DELETED" value="6C6F93" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6C6F93" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="F09383" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F43E5C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F43E5C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F43E5C" />
-        <option name="FILESTATUS_MERGED" value="B877DB" />
-        <option name="FILESTATUS_MODIFIED" value="27D796" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="27D796" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="27D796" />
-        <option name="FILESTATUS_RENAMED" value="27D796" />
-        <option name="FILESTATUS_addedOutside" value="21BFC2" />
-        <option name="FILESTATUS_changelistConflict" value="F43E5C" />
-        <option name="FILESTATUS_modifiedOutside" value="27D796" />
         <option name="ADDED_LINES_COLOR" value="27d796" />
         <option name="ANNOTATIONS_COLOR" value="4c4d52" />
         <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="fab28e" />
@@ -30,17 +18,33 @@
         <option name="DELETED_LINES_COLOR" value="e95678" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1a1c23" />
         <option name="DIFF_SEPARATOR_WAVE" value="4c4d52" />
-        <option name="DOCUMENTATION_COLOR" value="1C1E26" />
+        <option name="DOCUMENTATION_COLOR" value="1c1e26" />
         <option name="DOC_COMMENT_GUIDE" value="4c4d52" />
         <option name="DOC_COMMENT_LINK" value="25b2bc" />
         <option name="ERROR_HINT" value="40292e" />
+        <option name="FILESTATUS_ADDED" value="21bfc2" />
+        <option name="FILESTATUS_COPIED" value="21bfc2" />
+        <option name="FILESTATUS_DELETED" value="6c6f93" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6f93" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="f09383" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f43e5c" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f43e5c" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f43e5c" />
+        <option name="FILESTATUS_MERGED" value="b877db" />
+        <option name="FILESTATUS_MODIFIED" value="27d796" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="27d796" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="27d796" />
+        <option name="FILESTATUS_RENAMED" value="27d796" />
+        <option name="FILESTATUS_addedOutside" value="21bfc2" />
+        <option name="FILESTATUS_changelistConflict" value="f43e5c" />
+        <option name="FILESTATUS_modifiedOutside" value="27d796" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
         <option name="GUTTER_BACKGROUND" value="1c1e26" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="27d796" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="e95678" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="25b2bc" />
         <option name="INDENT_GUIDE" value="2e303e" />
-        <option name="INFORMATION_HINT" value="1C1E26" />
+        <option name="INFORMATION_HINT" value="1c1e26" />
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="2e303e" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="2e303e" />
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="2e303e" />
@@ -54,7 +58,7 @@
         <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="4c4d52" />
         <option name="LINE_NUMBERS_COLOR" value="4c4d52" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="fab28e" />
-        <option name="LOOKUP_COLOR" value="1C1E26" />
+        <option name="LOOKUP_COLOR" value="1c1e26" />
         <option name="METHOD_SEPARATORS_COLOR" value="2e303e" />
         <option name="MODIFIED_LINES_COLOR" value="25b2bc" />
         <option name="PROMOTION_PANE" value="2e303e" />
@@ -133,7 +137,7 @@
         </option>
         <option name="BREADCRUMBS_CURRENT">
             <value>
-                <option name="FOREGROUND" value="FAB795" />
+                <option name="FOREGROUND" value="fab795" />
                 <option name="BACKGROUND" value="2e303e" />
             </value>
         </option>
@@ -144,7 +148,7 @@
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
-                <option name="FOREGROUND" value="FAC29A" />
+                <option name="FOREGROUND" value="fac29a" />
                 <option name="BACKGROUND" value="2e303e" />
             </value>
         </option>
@@ -155,7 +159,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="522f35" />
+                <option name="BACKGROUND" value="813049" />
                 <option name="ERROR_STRIPE_COLOR" value="e95678" />
             </value>
         </option>
@@ -193,7 +197,7 @@
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="2e303e" />
+                <option name="FOREGROUND" value="545454" />
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -203,7 +207,7 @@
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="4c4d52" />
+                <option name="FOREGROUND" value="8f8f90" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -492,19 +496,19 @@
         <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="DEBUGGER_INLINED_VALUES">
             <value>
-                <option name="FOREGROUND" value="4c4d52" />
+                <option name="FOREGROUND" value="b2aaab" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
             <value>
-                <option name="FOREGROUND" value="4c4d52" />
+                <option name="FOREGROUND" value="88b9a5" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
             <value>
-                <option name="FOREGROUND" value="f09383" />
+                <option name="FOREGROUND" value="bfa3a0" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -742,7 +746,7 @@
         </option>
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="913a3a" />
+                <option name="BACKGROUND" value="5f2a3d" />
                 <option name="ERROR_STRIPE_COLOR" value="e95678" />
             </value>
         </option>
@@ -754,13 +758,13 @@
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="294436" />
+                <option name="BACKGROUND" value="16614b" />
                 <option name="ERROR_STRIPE_COLOR" value="27d796" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="385570" />
+                <option name="BACKGROUND" value="225d66" />
                 <option name="ERROR_STRIPE_COLOR" value="25b2bc" />
             </value>
         </option>
@@ -784,17 +788,17 @@
         </option>
         <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="4c4d52" />
+                <option name="BACKGROUND" value="a9a9a9" />
             </value>
         </option>
         <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="2e303e" />
+                <option name="BACKGROUND" value="f9d3d7" />
             </value>
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="2e303e" />
+                <option name="BACKGROUND" value="13825e" />
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -923,14 +927,19 @@
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="6C6F93" />
+                <option name="FOREGROUND" value="6c6f93" />
                 <option name="BACKGROUND" value="2e303e" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="FOREGROUND" value="FAC29A" />
+                <option name="FOREGROUND" value="fac29a" />
                 <option name="BACKGROUND" value="4c4d52" />
+            </value>
+        </option>
+        <option name="INLINE_STACK_FRAMES">
+            <value>
+                <option name="BACKGROUND" value="988d90" />
             </value>
         </option>
         <option name="JS.REGEXP">
