@@ -1,9 +1,5 @@
 <scheme name="Horizon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
-    <metaInfo>
-        <property name="ide">Rider</property>
-        <property name="ideVersion">2025.1.2.0.0</property>
-    </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="14" />
     <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
@@ -143,7 +139,7 @@
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9a9a9" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
@@ -1219,14 +1215,14 @@
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
         <option name="PROPERTIES.KEY">
             <value>
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
         <option name="PY.ANNOTATION">
             <value>
                 <option name="FOREGROUND" value="fab795" />
@@ -1710,5 +1706,49 @@
                 <option name="FOREGROUND" value="e95678" />
             </value>
         </option>
+        <option name="org.rust.CFG_DISABLED_CODE">
+            <value>
+                <option name="FOREGROUND" value="4c4d52" />
+            </value>
+        </option>
+        <option name="org.rust.GENERATED_ITEM">
+            <value>
+                <option name="FOREGROUND" value="127c59" />
+            </value>
+        </option>
+        <option name="org.rust.INLINE_ERROR_DESCRIPTION">
+            <value>
+                <option name="FOREGROUND" value="822a46" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.INLINE_EXPLANATION">
+            <value>
+                <option name="FOREGROUND" value="816758" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.INLINE_WARNING_DESCRIPTION">
+            <value>
+                <option name="FOREGROUND" value="894222" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="org.rust.MUT_STATIC">
+            <value>
+                <option name="FOREGROUND" value="e95678" />
+                <option name="FONT_TYPE" value="2" />
+                <option name="EFFECT_COLOR" value="e95678" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.STATIC">
+            <value>
+                <option name="FOREGROUND" value="fac29a" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
     </attributes>
 </scheme>

@@ -36,7 +36,7 @@
       "background": "bg",
       "foreground": "fg",
       "infoForeground": "fgDark",
-      "selectionBackground": "hl0",
+      "selectionBackground": "hl2",
       "selectionForeground": "fg",
       "selectionInactiveBackground": "hl1",
       "disabledText": "gray",
@@ -68,7 +68,7 @@
       "startBorderColor": "hl2",
       "endBorderColor": "hl2",
       "shadowColor": "bg",
-      "focusedBorderColor": "fg",
+      "focusedBorderColor": "darkPink",
       "disabledBorderColor": "hl2",
       "default": {
         "foreground": "bg",
@@ -93,7 +93,7 @@
     "ComboPopup.border": "1,1,1,1,F9CEC3",
     "CompletionPopup": {
       "selectionInactiveBackground": "hl0",
-      "selectionBackground": "hl0",
+      "selectionBackground": "hl2",
       "matchForeground": "red"
     },
     "ComplexPopup": {
@@ -108,8 +108,8 @@
       "inactiveWarningFocusColor": "orange"
     },
     "Counter": {
-      "background": "fg",
-      "foreground": "fg"
+      "background": "red",
+      "foreground": "bg"
     },
     "DefaultTabs": {
       "underlineColor": "pink",
@@ -274,7 +274,7 @@
         "installBorderColor": "darkGreen",
         "installFillForeground": "darkGreen",
         "installFillBackground": "bg",
-        "updateForeground": "fg",
+        "updateForeground": "bg",
         "updateBackground": "pink",
         "updateBorderColor": "pink"
       },
@@ -372,12 +372,12 @@
     "TableHeader.cellBorder": "10,0,10,0",
     "Tag.background": "hl1",
     "TextArea": {
-      "background": "hl1",
-      "selectionBackground": "hl0"
+      "background": "hl0",
+      "selectionBackground": "hl2"
     },
     "TextField": {
-      "background": "hl1",
-      "selectionBackground": "hl0"
+      "background": "hl0",
+      "selectionBackground": "hl2"
     },
     "ToggleButton": {
       "onForeground": "fgLight",

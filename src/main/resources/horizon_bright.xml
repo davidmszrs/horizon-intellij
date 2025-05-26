@@ -1,116 +1,112 @@
-<scheme name="Horizon Bright" version="142" parent_scheme="Darcula">
+<scheme name="Horizon Bright" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
-  <metaInfo>
-    <property name="ide">Rider</property>
-    <property name="ideVersion">2025.1.2.0.0</property>
-  </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="1EB980" />
-    <option name="ANNOTATIONS_COLOR" value="4C4D52" />
-    <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="FDF1EC" />
-    <option name="CARET_COLOR" value="FAB28E" />
-    <option name="CARET_ROW_COLOR" value="FADAD1" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="FDF0ED" />
-    <option name="DELETED_LINES_COLOR" value="DA103F" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="1A1C23" />
-    <option name="DIFF_SEPARATOR_WAVE" value="D59175" />
-    <option name="DOCUMENTATION_COLOR" value="FDF0ED" />
-    <option name="DOC_COMMENT_GUIDE" value="988D90" />
-    <option name="DOC_COMMENT_LINK" value="1EAEAE" />
-    <option name="ERROR_HINT" value="40292E" />
-    <option name="FILESTATUS_ADDED" value="1D8991" />
-    <option name="FILESTATUS_COPIED" value="1D8991" />
-    <option name="FILESTATUS_DELETED" value="6C6F93" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6C6F93" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="F6661E" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F43E5C" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F43E5C" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F43E5C" />
-    <option name="FILESTATUS_MERGED" value="8931B9" />
-    <option name="FILESTATUS_MODIFIED" value="1EB980" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="1EB980" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="1EB980" />
-    <option name="FILESTATUS_RENAMED" value="1EB980" />
-    <option name="FILESTATUS_addedOutside" value="1D8991" />
-    <option name="FILESTATUS_changelistConflict" value="F43E5C" />
-    <option name="FILESTATUS_modifiedOutside" value="1EB980" />
+    <option name="ADDED_LINES_COLOR" value="1eb980" />
+    <option name="ANNOTATIONS_COLOR" value="4c4d52" />
+    <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="fdf1ec" />
+    <option name="CARET_COLOR" value="fab28e" />
+    <option name="CARET_ROW_COLOR" value="fadad1" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="fdf0ed" />
+    <option name="DELETED_LINES_COLOR" value="da103f" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="1a1c23" />
+    <option name="DIFF_SEPARATOR_WAVE" value="d59175" />
+    <option name="DOCUMENTATION_COLOR" value="fdf0ed" />
+    <option name="DOC_COMMENT_GUIDE" value="988d90" />
+    <option name="DOC_COMMENT_LINK" value="1eaeae" />
+    <option name="ERROR_HINT" value="40292e" />
+    <option name="FILESTATUS_ADDED" value="1d8991" />
+    <option name="FILESTATUS_COPIED" value="1d8991" />
+    <option name="FILESTATUS_DELETED" value="6c6f93" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6f93" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="f6661e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f43e5c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f43e5c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f43e5c" />
+    <option name="FILESTATUS_MERGED" value="8931b9" />
+    <option name="FILESTATUS_MODIFIED" value="1eb980" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="1eb980" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="1eb980" />
+    <option name="FILESTATUS_RENAMED" value="1eb980" />
+    <option name="FILESTATUS_addedOutside" value="1d8991" />
+    <option name="FILESTATUS_changelistConflict" value="f43e5c" />
+    <option name="FILESTATUS_modifiedOutside" value="1eb980" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
-    <option name="GUTTER_BACKGROUND" value="FDF0ED" />
-    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1EB980" />
-    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="DA103F" />
-    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="1EAEAE" />
-    <option name="INDENT_GUIDE" value="F9CBBE" />
-    <option name="INFORMATION_HINT" value="FDF0ED" />
-    <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="F9CBBE" />
-    <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="F9CBBE" />
-    <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="F9CBBE" />
-    <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="1EAEAE" />
-    <option name="JUPYTER.CELL_UNDER_CARET_EDITOR_MODE_STRIPE_COLOR" value="1EB980" />
-    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="FADAD1" />
-    <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="1EAEAE" />
-    <option name="JUPYTER.GUTTER_OUTPUT_EXECUTION_COUNT" value="F6661E" />
-    <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="1EAEAE" />
-    <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="4C4D52" />
-    <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="4C4D52" />
-    <option name="LINE_NUMBERS_COLOR" value="4C4D52" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="F77D26" />
-    <option name="LOOKUP_COLOR" value="FDF0ED" />
-    <option name="METHOD_SEPARATORS_COLOR" value="F9CBBE" />
-    <option name="MODIFIED_LINES_COLOR" value="1EAEAE" />
-    <option name="MODIFIED_TAB_ICON" value="1EAEAE" />
-    <option name="PROMOTION_PANE" value="F9CBBE" />
-    <option name="QUESTION_HINT" value="F9CBBE" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="FADAD1" />
-    <option name="RIGHT_MARGIN_COLOR" value="4C4D52" />
-    <option name="SELECTED_INDENT_GUIDE" value="8931B9" />
-    <option name="SELECTED_TEARLINE_COLOR" value="4C4D52" />
-    <option name="SELECTION_BACKGROUND" value="F9CBBE" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="DA103F" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="DA103F" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="FDF0ED" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="F9CBBE" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="F9CBBE" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="FDF0ED" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="DA103F" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="DA103F" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="FDF0ED" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="F9CBBE" />
-    <option name="ScrollBar.Mac.thumbColor" value="F9CBBE" />
-    <option name="ScrollBar.Mac.trackColor" value="FDF0ED" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="DA103F" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="DA103F" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="FDF0ED" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="F9CBBE" />
-    <option name="ScrollBar.Transparent.thumbColor" value="F9CBBE" />
-    <option name="ScrollBar.Transparent.trackColor" value="FDF0ED" />
-    <option name="ScrollBar.background" value="FDF0ED" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="DA103F" />
-    <option name="ScrollBar.hoverThumbColor" value="DA103F" />
-    <option name="ScrollBar.hoverTrackColor" value="FDF0ED" />
-    <option name="ScrollBar.thumb" value="F9CBBE" />
-    <option name="ScrollBar.thumbBorderColor" value="F9CBBE" />
-    <option name="ScrollBar.thumbColor" value="F9CBBE" />
-    <option name="ScrollBar.thumbDarkShadow" value="FDF0ED" />
-    <option name="ScrollBar.thumbHighlight" value="F9CBBE" />
-    <option name="ScrollBar.thumbShadow" value="FDF0ED" />
-    <option name="ScrollBar.track" value="FDF0ED" />
-    <option name="ScrollBar.trackColor" value="FDF0ED" />
-    <option name="ScrollBar.trackHighlight" value="F9CBBE" />
-    <option name="TAB_UNDERLINE" value="E73665" />
-    <option name="TAB_UNDERLINE_INACTIVE" value="FADBD3" />
-    <option name="TEARLINE_COLOR" value="4C4D52" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="F9CBBE" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="F9CBBE" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="FADAD1" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="E95678" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="E95678" />
-    <option name="VISUAL_INDENT_GUIDE" value="F9CBBE" />
-    <option name="WHITESPACES" value="4C4D52" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="F77D26" />
+    <option name="GUTTER_BACKGROUND" value="fdf0ed" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1eb980" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="da103f" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="1eaeae" />
+    <option name="INDENT_GUIDE" value="f9cbbe" />
+    <option name="INFORMATION_HINT" value="fdf0ed" />
+    <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="f9cbbe" />
+    <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="f9cbbe" />
+    <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="f9cbbe" />
+    <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="1eaeae" />
+    <option name="JUPYTER.CELL_UNDER_CARET_EDITOR_MODE_STRIPE_COLOR" value="1eb980" />
+    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="fadad1" />
+    <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="1eaeae" />
+    <option name="JUPYTER.GUTTER_OUTPUT_EXECUTION_COUNT" value="f6661e" />
+    <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="1eaeae" />
+    <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="4c4d52" />
+    <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="4c4d52" />
+    <option name="LINE_NUMBERS_COLOR" value="4c4d52" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="f77d26" />
+    <option name="LOOKUP_COLOR" value="fdf0ed" />
+    <option name="METHOD_SEPARATORS_COLOR" value="f9cbbe" />
+    <option name="MODIFIED_LINES_COLOR" value="1eaeae" />
+    <option name="MODIFIED_TAB_ICON" value="1eaeae" />
+    <option name="PROMOTION_PANE" value="f9cbbe" />
+    <option name="QUESTION_HINT" value="f9cbbe" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="fadad1" />
+    <option name="RIGHT_MARGIN_COLOR" value="4c4d52" />
+    <option name="SELECTED_INDENT_GUIDE" value="8931b9" />
+    <option name="SELECTED_TEARLINE_COLOR" value="4c4d52" />
+    <option name="SELECTION_BACKGROUND" value="f9cbbe" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="da103f" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="da103f" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="fdf0ed" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="f9cbbe" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="f9cbbe" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="fdf0ed" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="da103f" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="da103f" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="fdf0ed" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="f9cbbe" />
+    <option name="ScrollBar.Mac.thumbColor" value="f9cbbe" />
+    <option name="ScrollBar.Mac.trackColor" value="fdf0ed" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="da103f" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="da103f" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="fdf0ed" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="f9cbbe" />
+    <option name="ScrollBar.Transparent.thumbColor" value="f9cbbe" />
+    <option name="ScrollBar.Transparent.trackColor" value="fdf0ed" />
+    <option name="ScrollBar.background" value="fdf0ed" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="da103f" />
+    <option name="ScrollBar.hoverThumbColor" value="da103f" />
+    <option name="ScrollBar.hoverTrackColor" value="fdf0ed" />
+    <option name="ScrollBar.thumb" value="f9cbbe" />
+    <option name="ScrollBar.thumbBorderColor" value="f9cbbe" />
+    <option name="ScrollBar.thumbColor" value="f9cbbe" />
+    <option name="ScrollBar.thumbDarkShadow" value="fdf0ed" />
+    <option name="ScrollBar.thumbHighlight" value="f9cbbe" />
+    <option name="ScrollBar.thumbShadow" value="fdf0ed" />
+    <option name="ScrollBar.track" value="fdf0ed" />
+    <option name="ScrollBar.trackColor" value="fdf0ed" />
+    <option name="ScrollBar.trackHighlight" value="f9cbbe" />
+    <option name="TAB_UNDERLINE" value="e73665" />
+    <option name="TAB_UNDERLINE_INACTIVE" value="fadbd3" />
+    <option name="TEARLINE_COLOR" value="4c4d52" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="f9cbbe" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="f9cbbe" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="fadad1" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="e95678" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="e95678" />
+    <option name="VISUAL_INDENT_GUIDE" value="f9cbbe" />
+    <option name="WHITESPACES" value="4c4d52" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="f77d26" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -118,7 +114,7 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -130,8 +126,6 @@
         <option name="FOREGROUND" value="1eaeae" />
       </value>
     </option>
-    <option name="BASH.HERE_DOC_END" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="BASH.HERE_DOC_START" baseAttributes="DEFAULT_KEYWORD" />
     <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
@@ -146,7 +140,7 @@
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="e0e0e0" />
+        <option name="FOREGROUND" value="16161c" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
@@ -313,12 +307,6 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="CSS.PROPERTY_NAME">
-      <value>
-        <option name="FOREGROUND" value="e0e0e0" />
-      </value>
-    </option>
     <option name="CSS.PSEUDO">
       <value>
         <option name="FOREGROUND" value="1eaeae" />
@@ -329,7 +317,6 @@
         <option name="FOREGROUND" value="da103f" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CS_ARROW">
       <value>
         <option name="FOREGROUND" value="e0e0e0" />
@@ -496,7 +483,6 @@
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="Class" baseAttributes="" />
     <option name="CodeWithMe.USER_1_SELECTION">
       <value>
         <option name="BACKGROUND" value="d5eede" />
@@ -577,7 +563,6 @@
         <option name="FOREGROUND" value="1a1c23" />
       </value>
     </option>
-    <option name="DEFAULT_CLASS_REFERENCE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="1a1c23" />
@@ -886,8 +871,6 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CUSTOM_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -898,7 +881,6 @@
         <option name="FOREGROUND" value="b071d1" />
       </value>
     </option>
-    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -975,6 +957,7 @@
         <option name="BACKGROUND" value="e6b08a" />
       </value>
     </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="1eaeae" />
@@ -1005,7 +988,6 @@
         <option name="FOREGROUND" value="f77d26" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
     <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
       <value>
         <option name="FOREGROUND" value="e0e0e0" />
@@ -1080,7 +1062,6 @@
         <option name="BACKGROUND" value="294436" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="FOREGROUND" value="1eb980" />
@@ -1225,14 +1206,11 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="f77d26" />
@@ -1293,13 +1271,6 @@
         <option name="FOREGROUND" value="4c4d52" />
       </value>
     </option>
-    <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
-    <option name="REGEXP.CHAR_CLASS" baseAttributes="DEFAULT_ENTITY" />
-    <option name="REGEXP.ESC_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="REGEXP.META" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="REGEXP.PARENTHS" baseAttributes="DEFAULT_PARENTHS" />
-    <option name="REGEXP.QUOTE_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="RUBY_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="1eaeae" />
@@ -1342,9 +1313,25 @@
         <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
+    <option name="ReSharper.CSHARP_COMMA">
+      <value>
+        <option name="FOREGROUND" value="e0e0e0" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="4c4d52" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="ReSharper.CSHARP_DOC_COMMENT_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="6c6f93" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_DOT">
+      <value>
+        <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_FORMAT_STRING_ITEM">
@@ -1382,6 +1369,11 @@
         <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
+    <option name="ReSharper.CSHARP_OPERATOR_SIGN">
+      <value>
+        <option name="FOREGROUND" value="e0e0e0" />
+      </value>
+    </option>
     <option name="ReSharper.CSHARP_PRIMARY_CONSTRUCTOR_PARAMETER_CAPTURED_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -1397,6 +1389,11 @@
     <option name="ReSharper.CSHARP_PROPERTY_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="da103f" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_STRING_ESCAPE_CHARACTER">
@@ -1508,7 +1505,6 @@
         <option name="BACKGROUND" value="4d4d" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_INTERPOLATION">
       <value>
         <option name="FOREGROUND" value="1eaeae" />
@@ -1519,7 +1515,6 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SCOPE_KEY_All Changed Files">
       <value />
     </option>
@@ -1529,7 +1524,8 @@
         <option name="ERROR_STRIPE_COLOR" value="1eaeae" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="1eb980" />
@@ -1537,7 +1533,6 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
-    <option name="Static method access" baseAttributes="" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="8931b9" />
@@ -1592,7 +1587,7 @@
     </option>
     <option name="TS.TYPE_GUARD">
       <value>
-        <option name="BACKGROUND" value="294436" />
+        <option name="BACKGROUND" value="e6b08a" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -1628,10 +1623,6 @@
         <option name="FOREGROUND" value="4c4d52" />
       </value>
     </option>
-    <option name="VELOCITY_DIRECTIVE" baseAttributes="" />
-    <option name="VELOCITY_KEYWORD" baseAttributes="" />
-    <option name="VELOCITY_REFERENCE" baseAttributes="" />
-    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="e48d7e" />
@@ -1657,7 +1648,11 @@
         <option name="FOREGROUND" value="ff2658" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="f6661e" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -1678,10 +1673,54 @@
         <option name="FOREGROUND" value="da103f" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="da103f" />
+      </value>
+    </option>
+    <option name="XPATH.FUNCTION" baseAttributes="" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="" />
+    <option name="org.rust.GENERATED_ITEM">
+      <value>
+        <option name="FOREGROUND" value="7da8c" />
+      </value>
+    </option>
+    <option name="org.rust.INLINE_ERROR_DESCRIPTION">
+      <value>
+        <option name="FOREGROUND" value="e73665" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.INLINE_EXPLANATION">
+      <value>
+        <option name="FOREGROUND" value="1eaeae" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.INLINE_WARNING_DESCRIPTION">
+      <value>
+        <option name="FOREGROUND" value="f6661e" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.MUT_STATIC">
+      <value>
+        <option name="FOREGROUND" value="da103f" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="da103f" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.STATIC">
+      <value>
+        <option name="FOREGROUND" value="f77d26" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.UNSAFE_CODE">
+      <value>
+        <option name="BACKGROUND" value="daecec" />
       </value>
     </option>
   </attributes>

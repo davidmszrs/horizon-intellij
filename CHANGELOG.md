@@ -1,6 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# horizon-jetbrains Changelog
+# New Horizon Changelog
+
+## [3.0.2]
+- General fixes for Rider and RustRover
 
 ## [3.0.1]
 - Fixes for **Horizon Bright** on Rider
