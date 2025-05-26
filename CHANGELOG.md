@@ -2,6 +2,9 @@
 
 # horizon-jetbrains Changelog
 
+## [3.0.1]
+- Fixes for **Horizon Bright** on Rider
+
 ## [3.0.0]
 - Added support for **Horizon Bright**
 - Refactored all system colors to match the Horizon color scheme
