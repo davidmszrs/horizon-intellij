@@ -1,8 +1,8 @@
 <scheme name="Horizon Bright" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2025.1.1.1.0.0</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2025.1.2.0.0</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -118,7 +118,7 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -313,7 +313,7 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="" />
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="e0e0e0" />
@@ -329,7 +329,7 @@
         <option name="FOREGROUND" value="da103f" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CS_ARROW">
       <value>
         <option name="FOREGROUND" value="e0e0e0" />
@@ -496,7 +496,7 @@
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Class" baseAttributes="" />
     <option name="CodeWithMe.USER_1_SELECTION">
       <value>
         <option name="BACKGROUND" value="d5eede" />
@@ -1080,7 +1080,7 @@
         <option name="BACKGROUND" value="294436" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="" />
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="FOREGROUND" value="1eb980" />
@@ -1342,25 +1342,9 @@
         <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
-    <option name="ReSharper.CSHARP_COMMA">
-      <value>
-        <option name="FOREGROUND" value="e0e0e0" />
-      </value>
-    </option>
-    <option name="ReSharper.CSHARP_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="4c4d52" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="ReSharper.CSHARP_DOC_COMMENT_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="6c6f93" />
-      </value>
-    </option>
-    <option name="ReSharper.CSHARP_DOT">
-      <value>
-        <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_FORMAT_STRING_ITEM">
@@ -1398,11 +1382,6 @@
         <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
-    <option name="ReSharper.CSHARP_OPERATOR_SIGN">
-      <value>
-        <option name="FOREGROUND" value="e0e0e0" />
-      </value>
-    </option>
     <option name="ReSharper.CSHARP_PRIMARY_CONSTRUCTOR_PARAMETER_CAPTURED_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="da103f" />
@@ -1418,11 +1397,6 @@
     <option name="ReSharper.CSHARP_PROPERTY_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="da103f" />
-      </value>
-    </option>
-    <option name="ReSharper.CSHARP_SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="e0e0e0" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_STRING_ESCAPE_CHARACTER">
@@ -1534,7 +1508,7 @@
         <option name="BACKGROUND" value="4d4d" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="" />
+    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_INTERPOLATION">
       <value>
         <option name="FOREGROUND" value="1eaeae" />
@@ -1545,7 +1519,7 @@
         <option name="FOREGROUND" value="f6661e" />
       </value>
     </option>
-    <option name="SASS_VARIABLE" baseAttributes="" />
+    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SCOPE_KEY_All Changed Files">
       <value />
     </option>
@@ -1555,7 +1529,7 @@
         <option name="ERROR_STRIPE_COLOR" value="1eaeae" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="1eb980" />
@@ -1563,7 +1537,7 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="8931b9" />
