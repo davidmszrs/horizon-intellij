@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.3]
+- Fix background color for some icons
+
 ## [3.0.2]
 - General fixes for Rider and RustRover
 
