@@ -77,6 +77,12 @@
         "startBorderColor": "pink",
         "endBorderColor": "pink",
         "focusedBorderColor": "darkPink"
+      },
+      "Split": {
+        "default": {
+          "separatorColor": "bg",
+          "iconColor": "bg"
+        }
       }
     },
     "ComboBox": {
@@ -85,7 +91,7 @@
       "selectionForeground": "pink",
       "disabledForeground": "pink",
       "ArrowButton": {
-        "iconColor": "bg",
+        "iconColor": "fg",
         "disabledIconColor": "gray",
         "nonEditableBackground": "hl1"
       }
