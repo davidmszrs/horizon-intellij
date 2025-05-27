@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.5]
+- Improve legibility on dark mode
+
 ## [3.0.4]
 - Fix inconsistent notifications
 

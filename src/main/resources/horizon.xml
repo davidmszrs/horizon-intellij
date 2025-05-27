@@ -1,5 +1,9 @@
 <scheme name="Horizon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
+    <metaInfo>
+        <property name="ide">Rider</property>
+        <property name="ideVersion">2025.1.2.0.0</property>
+    </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="14" />
     <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
@@ -8,7 +12,7 @@
         <option name="ADDED_LINES_COLOR" value="27D796" />
         <option name="ANNOTATIONS_COLOR" value="4C4D52" />
         <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="FAB28E" />
-        <option name="CARET_COLOR" value="FAB28E" />
+        <option name="CARET_COLOR" value="797B7F" />
         <option name="CARET_ROW_COLOR" value="232530" />
         <option name="CONSOLE_BACKGROUND_KEY" value="1C1E26" />
         <option name="DELETED_LINES_COLOR" value="E95678" />
@@ -52,8 +56,8 @@
         <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="25B2BC" />
         <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="4C4D52" />
         <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="4C4D52" />
-        <option name="LINE_NUMBERS_COLOR" value="4C4D52" />
-        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="FAB28E" />
+        <option name="LINE_NUMBERS_COLOR" value="2F3138" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="797B7F" />
         <option name="LOOKUP_COLOR" value="1C1E26" />
         <option name="METHOD_SEPARATORS_COLOR" value="2E303E" />
         <option name="MODIFIED_LINES_COLOR" value="25B2BC" />
@@ -881,7 +885,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="232530" />
+                <option name="BACKGROUND" value="2e303e" />
                 <option name="ERROR_STRIPE_COLOR" value="25b2bc" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -1215,14 +1219,14 @@
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
         <option name="PROPERTIES.KEY">
             <value>
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="PY.ANNOTATION">
             <value>
                 <option name="FOREGROUND" value="fab795" />
@@ -1602,7 +1606,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="25b2bc" />
+                <option name="FOREGROUND" value="27d796" />
                 <option name="FONT_TYPE" value="2" />
                 <option name="ERROR_STRIPE_COLOR" value="27d796" />
             </value>
@@ -1663,7 +1667,7 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="232530" />
+                <option name="BACKGROUND" value="424557" />
                 <option name="ERROR_STRIPE_COLOR" value="25b2bc" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
