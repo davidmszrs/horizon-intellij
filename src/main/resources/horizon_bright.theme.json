@@ -85,7 +85,7 @@
       "selectionForeground": "pink",
       "disabledForeground": "pink",
       "ArrowButton": {
-        "iconColor": "fg",
+        "iconColor": "bg",
         "disabledIconColor": "gray",
         "nonEditableBackground": "hl1"
       }
