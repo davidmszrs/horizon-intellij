@@ -99,7 +99,7 @@
     "ComboPopup.border": "1,1,1,1,F9CEC3",
     "CompletionPopup": {
       "selectionInactiveBackground": "hl0",
-      "selectionBackground": "hl2",
+      "selectionBackground": "hl1",
       "matchForeground": "red"
     },
     "ComplexPopup": {

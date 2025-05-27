@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.6]
+- Contrast updates
+
 ## [3.0.5]
 - Improve legibility on dark mode
 
