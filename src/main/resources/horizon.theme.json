@@ -245,17 +245,30 @@
     "Notification": {
       "background": "hl0",
       "borderColor": "hl2",
+
+      "errorBorderColor": "red",
+      "errorBackground": "red",
+
       "MoreButton": {
         "foreground": "fg"
       },
+
       "ToolWindow": {
+        "informativeBackground": "bg",
+        "informativeBorderColor": "blue",
         "informativeForeground": "fg",
-        "informativeBackground": "hl1",
-        "informativeBorderColor": "hl1"
+
+        "errorBackground": "bg",
+        "errorBorderColor": "red",
+        "errorForeground": "fg",
+
+        "warningBackground": "bg",
+        "warningBorderColor": "orange",
+        "warningForeground": "fg"
       }
     },
     "NotificationsToolwindow.Notification.hoverBackground": "hl1",
-    "NotificationsToolwindow.newNotification.background": "hl1",
+    "NotificationsToolwindow.newNotification.background": "hl0",
     "NotificationsToolwindow.newNotification.hoverBackground": "hl1",
     "ParameterInfo": {
       "background": "hl0",

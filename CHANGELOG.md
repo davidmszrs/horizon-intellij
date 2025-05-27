@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.4]
+- Fix inconsistent notifications
+
 ## [3.0.3]
 - Fix background color for some icons
 
