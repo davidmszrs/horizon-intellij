@@ -19,6 +19,7 @@
     "darkGreen": "#27D796",
     "lightGreen": "#21BFC2",
     "darkRed": "#F43E5C",
+    "alternateActionButtonBg": "#330f18",
     "red": "#E9436F",
     "lightRed": "#E95379",
     "pink": "#E9436F",
@@ -349,9 +350,10 @@
       "endBackground": "red"
     },
     "SegmentedButton": {
-      "selectedButtonColor": "pink",
-      "selectedStartBorderColor": "blue",
-      "selectedEndBorderColor": "blue"
+      "selectedButtonColor": "alternateActionButtonBg",
+      "selectedStartBorderColor": "pink",
+      "selectedEndBorderColor": "pink",
+      "focusedSelectedButtonColor": "pink"
     },
     "Settings.Spotlight.borderColor": "pink",
     "Slider": {

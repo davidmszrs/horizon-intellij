@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.7]
+- Better support for Kotlin
+
 ## [3.0.6]
 - Contrast updates
 

@@ -1,13 +1,4 @@
 <scheme name="Horizon" version="142" parent_scheme="Darcula">
-    <option name="FONT_SCALE" value="1.0" />
-    <metaInfo>
-        <property name="ide">Rider</property>
-        <property name="ideVersion">2025.1.2.0.0</property>
-    </metaInfo>
-    <option name="LINE_SPACING" value="1.2" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-    <option name="EDITOR_FONT_NAME" value="Cascadia Code" />
-    <option name="EDITOR_LIGATURES" value="true" />
     <colors>
         <option name="ADDED_LINES_COLOR" value="27D796" />
         <option name="ANNOTATIONS_COLOR" value="4C4D52" />
@@ -115,7 +106,11 @@
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="b877db" />
+            </value>
+        </option>
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="e95678" />
@@ -310,7 +305,7 @@
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
+        <option name="CSS.IMPORTANT" baseAttributes="" />
         <option name="CSS.PROPERTY_NAME">
             <value>
                 <option name="FOREGROUND" value="e0e0e0" />
@@ -326,7 +321,7 @@
                 <option name="FOREGROUND" value="e95678" />
             </value>
         </option>
-        <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
+        <option name="CSS.URL" baseAttributes="" />
         <option name="CS_ARROW">
             <value>
                 <option name="FOREGROUND" value="e0e0e0" />
@@ -493,7 +488,7 @@
             </value>
         </option>
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="Class" baseAttributes="" />
+        <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="DEBUGGER_INLINED_VALUES">
             <value>
                 <option name="FOREGROUND" value="676468" />
@@ -1020,12 +1015,28 @@
         </option>
         <option name="KOTLIN_COLON">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9b7c6" />
             </value>
         </option>
         <option name="KOTLIN_DOUBLE_COLON">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9b7c6" />
+            </value>
+        </option>
+        <option name="KOTLIN_DSL_STYLE1">
+            <value>
+                <option name="FOREGROUND" value="25b2bc" />
+            </value>
+        </option>
+        <option name="KOTLIN_DSL_STYLE2">
+            <value>
+                <option name="FOREGROUND" value="25b2bc" />
+            </value>
+        </option>
+        <option name="KOTLIN_DSL_STYLE4">
+            <value>
+                <option name="FOREGROUND" value="25b2bc" />
+                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
@@ -1042,23 +1053,24 @@
         </option>
         <option name="KOTLIN_EXCLEXCL">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9b7c6" />
             </value>
         </option>
         <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9b7c6" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="e95678" />
             </value>
         </option>
+        <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="KOTLIN_QUEST">
             <value>
-                <option name="FOREGROUND" value="e0e0e0" />
+                <option name="FOREGROUND" value="a9b7c6" />
             </value>
         </option>
         <option name="KOTLIN_SMART_CAST_RECEIVER">
@@ -1074,7 +1086,8 @@
                 <option name="BACKGROUND" value="294436" />
             </value>
         </option>
-        <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+        <option name="LESS_VARIABLE" baseAttributes="" />
         <option name="LINE_FULL_COVERAGE">
             <value>
                 <option name="FOREGROUND" value="27d796" />
@@ -1534,7 +1547,7 @@
                 <option name="BACKGROUND" value="4d4d" />
             </value>
         </option>
-        <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
+        <option name="SASS_COMMENT" baseAttributes="" />
         <option name="SASS_INTERPOLATION">
             <value>
                 <option name="FOREGROUND" value="25b2bc" />
@@ -1545,7 +1558,7 @@
                 <option name="FOREGROUND" value="f09383" />
             </value>
         </option>
-        <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="SASS_VARIABLE" baseAttributes="" />
         <option name="SCOPE_KEY_All Changed Files">
             <value />
         </option>
@@ -1555,7 +1568,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="25b2bc" />
             </value>
         </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="27d796" />
@@ -1563,7 +1576,7 @@
                 <option name="EFFECT_TYPE" value="4" />
             </value>
         </option>
-        <option name="Static method access" baseAttributes="" />
+        <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="b877db" />
