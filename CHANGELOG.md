@@ -2,6 +2,9 @@
 
 # New Horizon Changelog
 
+## [3.0.8]
+- Added support for platform version 253.X and above
+
 ## [3.0.7]
 - Better support for Kotlin
 
